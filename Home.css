@@ -159,6 +159,8 @@ main {
 }
 
 .intro2 {
+    display: flex;
+    flex-direction: column;
   padding: 40px;
   width: 100%;
   height: 100%;
@@ -166,7 +168,6 @@ main {
   border-radius: 30px;
   text-align: start;
   margin-bottom: 10px;
-  transition: background 1.1s;
 }
 .intro2 p {
   color: #5b8bdf;
@@ -174,6 +175,7 @@ main {
   font-weight: 500;
   text-align: start;
   padding-bottom: 40px;
+  padding-top:30px;
   display: flex;
 }
 .description {
@@ -227,9 +229,107 @@ img {
 section {
   background-color: #fffcfc;
 }
-.projects h2 {
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  padding-top: 30px;
+  margin-top: 70px;
+  width: 325px;
+  background-color: rgb(233, 228, 228);
+  border-radius: 8px;
+  overflow:hidden;
+}
+.card:hover{
+  background-color: #5b8bdf5d;
+}
+.card img{
+  width: 100%;
+  height: auto;
+}
+.card-content h3{
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+.card-content p{
+  color: black;
+  font-size: 15spx;
+  line-height: 1.6;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+.card-content .button{
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #5b8bdf;
+  border-radius: 4px;
+  margin-top: 12px;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+.card-content .button:hover{
+  background-color: black;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container{
+  padding: 100px;
+  margin-top: 80px;
+ 
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.contact2{
   text-align: center;
-  padding-top: 45px;
-  font-size: 30px;
-  color: #1a1363;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+}
+.mail{
+    padding:20px;
+    font-size: 30px;
+}
+.X{
+    padding:20px;
+    font-size: 30px;
+} 
+.facebook{
+    padding:20px;
+    font-size: 30px;
+}
+.Telegram{
+    padding:20px;
+    font-size: 30px;
+}
+.instagram{
+    padding:20px;
+    font-size: 30px;
+}
+.whatsApp{
+    padding:20px;
+    font-size: 30px;
+}
+.tiktok{
+    padding:20px;
+    font-size: 30px;
+}
+
+.copyright{
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 28px;
+  margin-top: 50px;
 }
