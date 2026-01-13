@@ -48,8 +48,32 @@ nav a:hover {
   text-decoration: underline;
   text-decoration-color: #00d4ff;
 }
-input {
+input{
   display: none;
+}
+.input-form{
+  display: block;
+  margin-bottom: 20px;
+  padding: 7px;
+}
+textarea{
+  padding: 30px;
+  margin-top: 5px;
+}
+.submit{
+   display: inline-block;
+  padding: 8px 16px;
+  background-color: #5b8bdf;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.submit:hover{
+  background-color: black;
 }
 @media (max-width: 768px) {
   nav {
@@ -220,7 +244,7 @@ main {
 
 img {
   align-items: center;
-  height: 270px;
+  height: 370px;
   width: 375px;
   border-radius: 18px;
   object-fit: fill;
@@ -252,13 +276,13 @@ section {
 .card-content h3{
   font-size: 20px;
   margin-bottom: 8px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .card-content p{
   color: black;
   font-size: 15spx;
   line-height: 1.6;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-bottom: 10px;
   
 }
@@ -267,10 +291,11 @@ section {
   padding: 8px 16px;
   background-color: #5b8bdf;
   border-radius: 4px;
-  margin-top: 12px;
+  margin-top: 10px;
   text-decoration: none;
   color: white;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 .card-content .button:hover{
   background-color: black;
@@ -283,15 +308,16 @@ section {
 }
 .contact-container{
   padding: 100px;
-  margin-top: 80px;
- 
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
   width: 100%;
+}
+.contact-container h2{
+  padding-bottom: 20px;
 }
 
 .contact2{
   text-align: center;
+  margin-top: 180px;
 }
 .icons{
   display: flex;
