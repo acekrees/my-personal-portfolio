@@ -71,6 +71,7 @@ textarea{
   border: none;
   margin-left: 20px;
   margin-bottom: 20px;
+  width: 140px;
 }
 .submit:hover{
   background-color: black;
@@ -305,6 +306,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 200px;
 }
 .contact-container{
   padding: 100px;
@@ -313,44 +315,48 @@ section {
 }
 .contact-container h2{
   padding-bottom: 20px;
+  font-size: 30px;
 }
 
 .contact2{
   text-align: center;
   margin-top: 180px;
 }
+footer{
+align-items: center;
+height: 70px;
+}
 .icons{
   display: flex;
   justify-content: center;
-  margin-left: 60px;
 }
 .mail{
     padding:20px;
-    font-size: 30px;
+    font-size: 16px;
 }
 .X{
     padding:20px;
-    font-size: 30px;
+     font-size: 16px;
 } 
 .facebook{
     padding:20px;
-    font-size: 30px;
+     font-size: 16px;
 }
 .Telegram{
     padding:20px;
-    font-size: 30px;
+     font-size: 16px;
 }
 .instagram{
     padding:20px;
-    font-size: 30px;
+     font-size: 16px;
 }
 .whatsApp{
     padding:20px;
-    font-size: 30px;
+     font-size: 16px;
 }
 .tiktok{
     padding:20px;
-    font-size: 30px;
+     font-size: 16px;
 }
 
 .copyright{
