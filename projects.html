@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,9 +16,9 @@
     <!--END MOBILE SCREEN-->
 
     <header>
-      <div class="name">
+      <a class="logo" href="Home.html">
         <h1>AceKRees</h1>
-      </div>
+      </a>
       <!--MOBIKE SCREEN-->
       <label for="menu">
         <div></div>
@@ -35,27 +35,50 @@
       </nav>
     </header>
     <main>
-      <div class="card-container">
-        <div class="card">
-          <img src="images/project 1.png" />
-          <div class="card-content">
-            <h3>Project 1</h3>
-            <p>My First About Me Project</p>
-            <a
-              href="https://aboutme-jade-delta.vercel.app/Aboutme.html"
-              class="button"
-              >See Project</a
+      <section class="projects-section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="card-container">
+          <div class="card">
+            <div
+              class="card-image"
+              style="background: linear-gradient(135deg, #7c3aed, #8b5cf6)"
             >
+              <img src="images/project 1.png" alt="Project One" />
+            </div>
+            <div class="card-content">
+              <h3>Project One</h3>
+              <p>My First About Me Project</p>
+              <a
+                href="https://aboutme-jade-delta.vercel.app/Aboutme.html"
+                class="button"
+                >See Project</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div
+              class="card-image"
+              style="background: linear-gradient(135deg, #6b8dd6, #8e9de8)"
+            >
+              <img src="images/project 2.png" alt="Project Two" />
+            </div>
+            <div class="card-content">
+              <h3>Project Two</h3>
+              <p>Student Login Page</p>
+            </div>
+          </div>
+          <div class="card">
+            <div
+              class="card-image"
+              style="background: linear-gradient(135deg, #00d4ff, #0dcaf0)"
+            ></div>
+            <div class="card-content">
+              <h3>Project Three</h3>
+              <p>Description text here</p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="images/project 2.png" />
-          <div class="card-content">
-            <h3>Project 2</h3>
-            <p>Student Login Page</p>
-          </div>
-        </div>
-      </div>
+      </section>
     </main>
     <footer>
       <div class="contact2">
